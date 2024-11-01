@@ -3,7 +3,7 @@ using SeleniumTranslation_MSTestEdition.Phase2;
 
 namespace SeleniumTranslation_MSTestEdition.Phase2
 {
-    public class HTML_ActionControls 
+    public class HTML_ActionControls
     {
         private IWebDriver driver;
         TestResultsHandler MyTest;

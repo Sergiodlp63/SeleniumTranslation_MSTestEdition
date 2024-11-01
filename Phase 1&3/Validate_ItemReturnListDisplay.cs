@@ -18,7 +18,7 @@ namespace SeleniumTranslation_MSTestEdition
             Mydriver = new ChromeDriver();
 
         }
-        
+
         [TestMethod]
         public void IRLDisplays_Parameter001()
         {
@@ -101,7 +101,7 @@ namespace SeleniumTranslation_MSTestEdition
 
         [TestCleanup]
         public void Teardown()
-        { 
+        {
             Mydriver.Quit();
         }
 
